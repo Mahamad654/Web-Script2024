@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Responsive Template</title>
+        <title>Mahamad Mansuri</title>
         <link rel="stylesheet" href="style2.css" type="text/css" media="only screen and
         (min-width:960px)"/>
 
@@ -10,11 +10,7 @@
         <link rel="stylesheet" href="tablet1.css" type="text/css" media="only screen and
         (min-width:481px) and (max-width:960px)">
 
-        <!-- phone style sheet->
-
-        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
-        (max-width:480px)">-->
-    
+        
     </head>
     <body>
         
@@ -23,7 +19,7 @@
                 
                     <div class="bar1">
                         
-                        <img src="2.png"/>
+                        <img src="2.JPG">
                         
                         <a href="#home" class="navLink scrollto active">Home</a>
 
@@ -43,43 +39,87 @@
         <div id="wrapper">
         <section id="home">
             <div class="home">
-                
-                <img src="1.jpg"/>
+                <h1>Welcome to my Webpage</h1>
+                <img src="1.jpg">
                 
             </div>
         </section>
-
-        <section id="projects">
-            <div class="projects">
-                <div class="colLeft">
-                    <div class="box1">
-                        <p>Hello</p>
-                    </div>
-                </div>
-
-                <div class="colRight">
-                    <div class="box2">
-                        <p>Hello</p>
-                    </div>
-
-                </div>
-
+        
+        <section id="projects" class="projects">
+             
+            <div class="box1" cols="20" rows="10">
+                <p>This mortgage stress calculator allows house buyers to analyze there expenses and 
+                    the expenses of owning a house. The calculator shows whether the consumer qualifies for a loan 
+                    by the values entered and if the GDS and TDS ratio are under the maximum mark. </p>
+            </div>
+                
+            <div class="box2">
+                <img width="100%" height="100%" src="ProjectPic.png">
             </div>
 
         </section>
 
 
         <section id="about">
-            <div class="about">
+            <div class="aboutVid">
                 
-                <video id="myvid" width="60%" height="80%" controls poster="CSS3-Transforms1.png">
+                <video id="myvid" controls poster="poster.JPEG">
                     <source src="video.mp4" type="video/mp4">
                 </video>
 
             </div>
+            <div class="about">
+                <p>Hello, my name is Mahamad and in addition to this video id like to share some of my other 
+                    hobbies and interests. Im a big car enthusiat and got interested into coding about a year 
+                    ago which is why i switched majors and decided to pursue a career in IT
+                </p>
+            </div>
         </section>
 
         <section id="contacts">
+            <div class="contacts">
+                <h1>Feedback Form</h1>
+                <form action="mailto:mahamadnauman.mansuri@ontariotechu.net" method="post" enctype="text/plain" name="form">
+            
+                    <p>
+                        <label for="name">Name :</label>
+                        <input type="text" required name="name" size="32" placeholder="Add your name">
+                    </p>
+                    <p>
+                        <label for="email">Email :</label>
+                        <input type="email" required name="email" size="32" placeholder="Enter your email">
+                    </p>
+            
+                    <p>
+                        <label for="comment">Message</label>
+                        <br><br>
+                        <textarea name="comment" cols="50" rows="8"></textarea>
+                    </p>
+            
+            
+                    <p>
+                        <label for="where">How did you find us?</label>
+                        <select name="where">
+                            <option value="Online">Online</option>
+                            <option value="Peers">Peers</option>
+                            <option value="Friends/Family">Friends/Family</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="maillist">If you were exhausted by the end of this assignment...</label>
+                        
+                        <input type="checkbox" name="maillist">
+                    </p>
+
+                    <p>
+                        <input id="subbtn" type="submit" value="Submit">
+                    </p>
+                    <p>
+                        <input id="resbtn" type="reset" value="Reset">
+                    </p>
+                </form>
+            </div>
 
         </section>
 

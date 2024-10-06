@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+head{
+    color: black
+}
+html{
+    background-color: #B5EBFF;
+    
+    
+}
+header,footer{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    
+
+}
+.navBar{
+    
+    text-align: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    
+}
+
+.bar1{
+    padding-left: 40px;
+}
+
+.bar1 img {
+width: 4%;
+height: 1%;
+float: left;
+border-radius: 40%;
+}
+
+.bar1 a{
+    
+    color: white;
+    
+    padding: 5px 15px 5px 15px;
+    font-size: 20pt;
+    text-decoration: none;
+
+}
+#home {
+    padding-top: 8%;
+    width: 100%;
+}
+.home img{
+    border-radius: 5%;
+    width: 100%;
+}
+/* .home:hover{
+    
+    box-shadow: 10px -10px 10px 10px black;
+    border-radius: 5%;
+} */
+.home h1{
+    color: black;
+    font-size: 22pt;
+    margin-left: 30%;
+}
+body {
+    color: #B5EBFF;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+#wrapper {
+    
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B5EBFF ;
+}
+
+#projects{
+    height: 520px;
+    background-color: #B5EBFF;
+    width: 100%;
+    font-size: 18px;
+}
+
+.box1 {
+    height: 85%;
+    width: 35%;
+    float: left;
+    background-color:black;
+    margin: 6px;
+    margin-top: 8%;
+    border-radius: 5%;
+}   
+
+.box1 p{
+    margin: 5%;
+    color: white;
+}
+        
+
+
+.box2 {
+    height: 85%;
+    width: 63%;
+    float: right;
+    
+    /* margin: 6px; */
+    
+    margin-top: 8%;
+}
+        
+.box2 img{
+    
+    border-radius: 5%;
+}
+#about{
+    height: 470px;
+    width: 100%;
+    background-color: #B5EBFF;
+    margin-top: 2%;
+}
+.aboutVid{
+    width: 55%;
+    height: 335px;
+    background-color: #B5EBFF;
+    float: left;
+    margin: 2%;
+    margin-top: 9%;
+
+}
+
+video {
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 6%;
+}
+
+.about{
+    float: right;
+    width:36%;
+    height: 75%;
+    background-color: black;
+    margin: 15px;
+    margin-top: 8%;
+    border-radius: 5%;
+}
+.about p{
+    margin-left: 1%;
+    font-size: 17pt;
+}
+.contacts{
+    background-color: white;
+    
+    width: 50%;
+    height: 650px;
+    border-radius: 2%;
+    margin: 15% 20% 5% 25%;
+
+}
+.contacts h1{
+    margin-left: 30%;
+    color: black;
+}
+.contacts input{
+    width: 90%;
+    padding: 2%;
+    margin: 3% 1% 1% 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.contacts label{
+    margin-left: 4%;
+    color: black;
+
+}
+.contacts textarea{
+    margin-left: 4%;
+}
+.clear{
+clear: both;
+}
+
+

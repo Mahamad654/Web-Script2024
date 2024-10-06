@@ -1,0 +1,169 @@
+@charset "UTF-8";
+head{
+    color: black
+}
+
+html{
+    background-color: #B5EBFF;
+}
+
+header,footer{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    position: fixed;
+}
+
+.navBar{
+    
+    text-align: left;
+    width: 100%;
+    
+}
+
+.bar1{
+    padding-left: 40px;
+}
+
+.bar1 img {
+width: 1.5em;
+height: 1.5em;
+float: left;
+}
+
+.bar1 a{
+    
+    color: white;
+    
+    padding: 5px 15px 5px 10px;
+    font-size: 20pt;
+    text-decoration: none;
+    
+}
+#home {
+    padding-top: 16%;
+    width: 100%;
+}
+.home img{
+    border-radius: 5%;
+    width: 100%;
+}
+body {
+    color: black;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,p,li 
+{
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+#wrapper {
+    max-width: 960px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: DarkGrey;
+}
+.box1 {
+    height: 100%;
+    width: 80%;
+    float: left;
+    background-color:black;
+    margin: 6px;
+    margin-top: 8%;
+    border-radius: 20%;
+}   
+
+.box1 p{
+    margin: 5%;
+    color: white;
+}
+.box2 {
+    height: 85%;
+    width: auto;
+
+    
+    /* margin: 6px; */
+    
+    margin-top: 8%;
+}
+.box2 img{
+    
+    border-radius: 5%;
+}
+.aboutVid{
+    width: 55%;
+    height: 10em;
+    background-color: #B5EBFF;
+    float: left;
+    margin: 2%;
+    margin-top: 9%;
+
+}
+#about{
+    height: 15em;
+    width: 100%;
+    background-color: #B5EBFF;
+    margin-top: 2%;
+}
+.about{
+    float: right;
+    width:36%;
+    height: auto;
+    background-color: black;
+    margin: 2%;
+    margin-top: 8%;
+    border-radius: 5%;
+}
+.about p{
+    margin-left: 1%;
+    font-size: auto;
+    color: white;
+}
+video {
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 6%;
+}
+.contacts{
+    background-color: white;
+    
+    width: 50%;
+    height: auto;
+    border-radius: 2%;
+    margin: 10%auto;
+
+}
+.contacts textarea{
+    margin-left: .5em;
+    width: 20em;
+}
+
+#footer {
+    height: 80px;
+    background-color: black;
+}
+.contacts input{
+    width: 90%;
+    padding: 2%;
+    margin: 3% 1% 1% 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+#banner {
+    height: 60px;
+    background-color: black;
+}
+
+
+.clear {
+    clear: both;
+}
